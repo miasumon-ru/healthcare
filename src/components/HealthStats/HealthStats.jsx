@@ -8,9 +8,9 @@ import video from '../../assets/icons8-video-48.png'
 
 const HealthStats = () => {
     return (
-        <div className="relative bg-[#FBFBFB] rounded-3xl">
+        <div className="relative bg-[#FBFBFB] rounded-3xl mt-12">
 
-            <div className="grid grid-cols-5 gap-4 my-10 ">
+            <div className="grid grid-cols-5 gap-4  ">
 
                 {/* first card */}
 
