@@ -2,7 +2,7 @@
 
 const Faq = () => {
     return (
-        <div className="my-16">
+        <div className="my-32">
 
 
             <div>

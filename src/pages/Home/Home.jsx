@@ -1,3 +1,4 @@
+import Appointment from "../../components/Appointment/Appointment";
 import Banner from "../../components/Banner/Banner";
 import Faq from "../../components/Faq/Faq";
 import HealthStats from "../../components/HealthStats/HealthStats";
@@ -18,6 +19,7 @@ const Home = () => {
             <Service></Service>
             <Testimonial></Testimonial>
             <Faq></Faq>
+            <Appointment></Appointment>
 
             
         </div>
