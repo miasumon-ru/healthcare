@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+import { MdOutlineArrowOutward } from "react-icons/md";
+
+import darkLogo from '../../assets/logo dark.png'
+
 
 const Navbar = () => {
 
@@ -41,7 +45,9 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                {/* <a className="btn btn-ghost text-xl"> </a> */}
+
+                <img className="" src={darkLogo} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -53,7 +59,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Appointment</a>
+                <p className="border flex flex-row gap-2 items-center border-black rounded-lg py-2 px-4 font-semibold">Appointment <MdOutlineArrowOutward className="text-xl" /> </p>
             </div>
         </div>
     );
