@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner/Banner";
+import Faq from "../../components/Faq/Faq";
 import HealthStats from "../../components/HealthStats/HealthStats";
 import Navbar from "../../components/Navbar/Navbar";
 import Service from "../../components/Navbar/Service";
@@ -16,6 +17,7 @@ const Home = () => {
             <WhoWeAre></WhoWeAre>
             <Service></Service>
             <Testimonial></Testimonial>
+            <Faq></Faq>
 
             
         </div>
