@@ -7,7 +7,7 @@ import womenImage from '../../assets/Rectangle 27-2.png'
 
 const Service = () => {
     return (
-        <div className="grid grid-cols-2 gap-10 mb-16 bg-[#FFFFF5] p-5 rounded-3xl">
+        <div className="grid grid-cols-2 gap-10 mb-16 max-w-6xl mx-auto bg-[#FFFFF5] p-5 rounded-3xl">
 
             {/* first card */}
 

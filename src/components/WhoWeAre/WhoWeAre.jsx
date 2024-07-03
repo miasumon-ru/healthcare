@@ -5,7 +5,7 @@ import whoWeAreImage from '../../assets/Rectangle 24.png'
 
 const WhoWeAre = () => {
     return (
-        <div className="flex flex-row justify-between relative my-40">
+        <div className="flex flex-row justify-between relative my-40 max-w-6xl mx-auto">
 
             <div className="w-2/5">
 

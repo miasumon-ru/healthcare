@@ -1,6 +1,7 @@
 import Appointment from "../../components/Appointment/Appointment";
 import Banner from "../../components/Banner/Banner";
 import Faq from "../../components/Faq/Faq";
+import Footer from "../../components/Footer/Footer";
 import HealthStats from "../../components/HealthStats/HealthStats";
 import Navbar from "../../components/Navbar/Navbar";
 import Service from "../../components/Navbar/Service";
@@ -12,7 +13,7 @@ const Home = () => {
     return (
         <div>
 
-            <Navbar></Navbar>
+            <Navbar ></Navbar>
             <Banner></Banner>
             <HealthStats></HealthStats>
             <WhoWeAre></WhoWeAre>
@@ -20,6 +21,7 @@ const Home = () => {
             <Testimonial></Testimonial>
             <Faq></Faq>
             <Appointment></Appointment>
+            <Footer></Footer>
 
             
         </div>

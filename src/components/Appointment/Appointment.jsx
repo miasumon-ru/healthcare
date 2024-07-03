@@ -7,7 +7,7 @@ import logoLight from '../../assets/logo light.png'
 
 const Appointment = () => {
     return (
-        <div className='my-20'>
+        <div className='my-20 max-w-6xl mx-auto'>
 
             <div className="bannerAppointment relative rounded-3xl">
 

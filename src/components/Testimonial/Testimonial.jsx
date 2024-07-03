@@ -3,7 +3,7 @@ import TestimonialSlider from "../TestimonialSlider/TestimonialSlider";
 
 const Testimonial = () => {
     return (
-        <div className="my-32">
+        <div className="my-32 max-w-6xl mx-auto">
 
             <div>
                 <p className="border w-[134px] rounded-3xl flex flex-col justify-center items-center border-black font-medium p-2 px-3"> Testimonial </p>
